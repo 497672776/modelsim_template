@@ -12,21 +12,13 @@
     + 文件 ./hdlsrc/testbench.v  ， 待测模块，内部逻辑为加法器
 
 * 目录 ./modelsim ， ModelSim工程目录
-    + 文件 ./modelsim/build.do  ，HDL代码编译脚本
     + 文件 ./modelsim/compile.f ，HDL代码文件 列表文件 
-    + 文件 ./modelsim/sim_quit.do， 退出仿真 脚本
+    + 文件 ./modelsim/sim_chongxinrun.do， 退出仿真 脚本
     + 文件 ./modelsim/sim_run.do，  运行仿真 脚本
 
-# 学生作业
 
 * 请仿照参考代码的样式， 编写你自己的脚本化测试项目
 * 可以重用提供的参考代码， 也可以自行编写
 * 观察你的待测模块的输入和输出数据， 确认待测模块正确工作
 * 思考一下， 如何做到不用肉眼观察验证结果， 而是自动化测试和验证
-
-# 教程页面
-
-请使用微信扫描以下二维码访问教程 “ModelSim 的脚本仿真流程 ”
-
-![微信二维码](./wx_qr.png)
 
